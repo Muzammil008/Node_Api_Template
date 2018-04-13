@@ -5,7 +5,8 @@ var mysql = require('mysql');
 var mysqlconfig = require('../config');
 
 //Database Connection
-var dbconnection = mysqlconfig.mysqlConfig;
+var dbconnection = mysqlconfig.connection();
+console.log(dbconnection)
 
 //open route
 apiRoutes.get('/login/:email/:password', function (req, res) {
