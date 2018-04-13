@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "version": "1.1.1",
+  "description": "WebApi using ExpressJs with NodeJs",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "author": "Muz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-generator": "^4.16.0",
+    "jsonwebtoken": "^8.2.1",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
